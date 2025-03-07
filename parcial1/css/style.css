@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Encabezado */
+header {
+  background: black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sección de artículos */
+.articulos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.articulos article {
+  text-align: center;
+  width: 300px;
+}
+
+.articulos img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+  padding: 20px;
+  text-align: center;
+}
+
+.formulario-contacto form {
+  display: inline-block;
+  text-align: left;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Tabla de estudiantes */
+.tabla-estudiantes {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
